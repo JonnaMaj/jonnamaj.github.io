@@ -1,6 +1,6 @@
 /*Header*/
 #header{
-	height:242px;
+	height:245px;
 	margin:0px auto 15px auto;
 	font-family:Verdana, Arial, Helvetica, sans-serif;
 	color:#FF00FF;
@@ -8,16 +8,16 @@
 	clear: both;
 }
 
-body{
-	background: #FFFFFF  url("https://raw.githubusercontent.com/dipaish/www_dkc/master/images/bg.jpg") repeat-x;
-	}
 #wrap{
-	width:699px;
+	width:700px;
 	margin:0px auto 15px auto;
 	font-family:Verdana, Arial, Helvetica, sans-serif;
 	font-size:12px;
 	color:#666666;
-}
+	
+body{
+	background: #FFFFFF  /*url("https://raw.githubusercontent.com/dipaish/www_dkc/master/images/bg.jpg") repeat-x;*/
+	}
 
 /*Header Menu*/
 #topmenu {
