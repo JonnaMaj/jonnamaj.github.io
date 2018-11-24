@@ -3,9 +3,7 @@
 	height:245px;
 	margin:0px auto 15px auto;
 	font-family:Verdana, Arial, Helvetica, sans-serif;
-	color: #7CFC00;
-	background:url("https://github.com/dipaish/www_dkc/blob/master/images/header.png?raw=true") no-repeat left top;
-	/*clear: both;*/
+	color:#7CFC00;
 }
 
 #wrap {
@@ -16,11 +14,11 @@
 	color:#666666;
 	
 body {
-	background: #FFFFFF  /*url("https://raw.githubusercontent.com/dipaish/www_dkc/master/images/bg.jpg") repeat-x;*/
+	background:#F0FFFF  /*url("https://raw.githubusercontent.com/dipaish/www_dkc/master/images/bg.jpg") repeat-x;*/
 	}
 
 /*Header Menu*/
-/*#topmenu {
+#topmenu {
 	display:block;
 	list-style:none;
 	padding:0 0px 0px 278px;
@@ -28,8 +26,8 @@ body {
 	width: 415px;
 	background-color:black;
 	position: fixed;
-}*/
-/*#topmenu li {
+}
+#topmenu li {
 	display:inline;
 }
 
@@ -56,7 +54,7 @@ body {
 	color:#FFFFFF;
 	background-color: #B42D0F;
 }
-*/
+
 
 /*
 /*Content*/
