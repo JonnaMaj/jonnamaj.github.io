@@ -11,7 +11,7 @@
 	margin:0px auto 15px auto;
 	font-family:Verdana, Arial, Helvetica, sans-serif;
 	font-size:12px;
-	color:#666666;
+	color:#7FFF00;
 	
 body {
 	background:#F0FFFF  /*url("https://raw.githubusercontent.com/dipaish/www_dkc/master/images/bg.jpg") repeat-x;*/
