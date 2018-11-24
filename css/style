@@ -58,6 +58,7 @@ body {
 }
 */
 
+/*
 /*Content*/
 #content {
 	background-color: #FFFFFF;
@@ -142,4 +143,4 @@ table#t1 {
 width: 75%;
 background-color: yellow;
 border: 1px;
-}
+}*/
