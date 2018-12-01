@@ -3,34 +3,128 @@
 <html>
   
 <head>
-  <title>WWW ja Internet - 2018</title>
+  <title>Quick Tutorials for Young Artists</title>
+  <!--Search useful meta information -->
   <link href="css/style.css" rel="stylesheet" type="text/css">
+  <script>
+  function contactForm(){
+		if (document.forms["myForm"]["name"].value==null || document.forms["myForm"]["name"].value==""){
+			alert("Name must be filled out");
+			return false;
+		}
+		if (document.forms["myForm"]["phone"].value==null || document.forms["myForm"]["phone"].value==""){
+			alert("Phone must be filled out");
+			return false;
+		}
+		if (document.forms["myForm"]["email"].value==null || document.forms["myForm"]["email"].value==""){
+			alert("Email must be filled out");
+			return false;
+		}
+	return true;
+	}
+	</script>
+	
+
 </head>
+  
   
 <body>
     <div id="wrap">
-    <div id="header">
-      This is my header
-        <img src="images/header10.jpg" alt="header image" width="500px" height:"245px">
-    </div>
+	
+		<div id="topbar">	
+			<div id="menu">
+				<ul id="topmenu">
+					<li  class="active">
+					<a href="#">Home</a>
+					</li>
+					<li><a href="#schedule">Schedule</a></span>
+					</li>
+					<li><a href="#art">Art</a>
+					</li>
+					<li><a href="#contactme">Contact Me</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="header">
+			Last edited - december 2018
+		</div>
       
       
-<h1>Hello World</h1>
-<p>I'm hosted with Github Pages.
-</p>
-  <a href="http://kamk.fi/fi" target="_blank"> KAMK Page </a> <br>
-  <img src="https://upload.wikipedia.org/wikipedia/fi/b/b8/Kajak_logo_pysty_KV_RGB.jpg" alt="Kamk logo"> </br>
-  
-  <ul>
-    <li> List 1 - WWW ja internet</li>
-    <li> List 2 - Data Structures </li>
-    <li> List 3- Script</li>
-  </ul>
-      <ol>
-        <li> Another list item </li>
-        <li> Another list item </li>
-        <li> Another list item </li>
-      </ol>
+		<h1>Hello World</h1>
+		<p>I'm hosted with Github Pages.
+		<br>
+		Welcome to this page.<br>
+		I will be trying this page as a trial for an online portfolio.<br>
+		Please note that any contact information put on this page will not be "real" (phone numbers etc.)
+		<br> This site also won't collect any of your information.
+		<br><br>
+		</p>
+		
+		<h2 id="schedule">My timetable</h2>
+		<p>This list will show an estimation for my commisioned work</p>
+		<table style="width=100%">
+			<tr>
+				<th>Commisioned work</th>
+				<th>Estimated time</th>
+			</tr>
+			<tr>
+				<th>Digital Drawing (1 target)</th>
+				<th>6h-8h</th>
+			</tr>
+			<tr>
+				<th>Digital Drawing (Background)</th>
+				<th>12h-16h</th>
+			</tr>
+		</table>
+		
+		
+		<h2 id="art">Art samples</h2>
+		<p> Here are some examples </p>
+		<img src="images/fireworks.jpg" alt="Fireworks" style="width:500px; height:300px;"> I have interests in photografing <br>
+		<img src="images/drawing.jpg" alt="Drawing" style="width:500px; height:500px;"> But I'm aspiring to make my job with drawing
+		<p>Here is my timelapse video. The drawing took me five hours.<br>I will give a quick rundown of the steps I took. </p>
+		<video style="width:640px; height:480px;" controls>
+			<source src="video/timelapse.mp4" type="video/mp4">
+			Your browser doesn't support the video tag.
+			</video>
+		<ol>
+			<li> I made a sketch of the character (posing and big details) </li>
+			<li> Drawing a solid lineart </li>
+			<li> Adding a base colour </li>
+			<li> Putting shadows, lights and textures </li>
+			<li> Making all the details </li>
+			<li> I improvised the background </li>
+		</ol>
+		
+		<h2 id="contactme">Contact Me</h2>
+		<p> By filling out these, you can leave me a message: 
+		<br> (Please note that this is a test, no information is collected)
+		</p>
+		<br><br><br><br>
+		
+		
+		<p>Click the button to get your coordinates.</p>
+		<button onclick="getLocation()">Try It</button>
+		<p id="trial"></p>
+	<script>
+	var x = document.getElementById("trial");
+	function getLocation() {
+		if (navigator.geolocation) {
+			navigator.geolocation.getCurrentPosition(showPosition);
+		} else {
+			x.innerHTML = "Geolocation is not supported by this browser.";
+		}
+	}
+	function showPosition(position) {
+		x.innerHTML = "Latitude: " + position.coords.latitude + 
+		"<br>Longitude: " + position.coords.longitude; 
+	}
+	</script>
+	
+	
+		
     </div>
 </body>
   
