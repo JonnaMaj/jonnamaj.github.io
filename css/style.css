@@ -90,4 +90,9 @@ h1, h2, h3, h4, h5 {
 table, th, td{
 	border: 1px solid black;
 }
-
+#drag {
+	width: 350px;
+	height: 70px;
+	padding: 10px;
+	border: 1px solid #aaaaaa;
+}
