@@ -1,42 +1,93 @@
-/*Header*/
 #header {
-	height:245px;
+	height:50px;
 	margin:0px auto 15px auto;
 	font-family:sans-serif;
-	color:#FF00FF;
+	color:#f5f5f5;
+
 }
 
 #wrap {
-	width:700px;
+	width:1000px;
 	margin:0px auto 15px auto;
 	font-family:sans-serif;
-	font-size:12px;
-	color:#9400D3;
-	
-body {
-	background:#F0FFFF  /*url("https://raw.githubusercontent.com/dipaish/www_dkc/master/images/bg.jpg") repeat-x;*/
-	}
+	color:#f5f5f5;
+}
 
-/*Header Menu*/
+body {
+	background:#708090;
+}
+
+/*Menus*/
 #topmenu {
 	display:block;
 	list-style:none;
-	padding:0 0px 0px 278px;
+	padding:0px 290px 0px 10px;
 	float: right;
-	width: 415px;
+	width: 400px;
 	background-color:#000000;
 	position: fixed;
 }
 #topmenu li {
 	display:inline;
 }
-
 #topmenu a {
 	display:block;
 	float:left;
 	height:28px;
-	margin:0px 0px 0px0px;
+	margin:0px 0px 0px 0px;
 	text-decoration:none;
 	padding:9px 15px 0px 15px;
 	text-align:center;
 }
+#topmenu a, #topmenu a:visited, #topmenu a:active {
+	color:#FFFFFF;
+}
+#topmenu a:hover{
+	color:#ffffff;
+	background-color: #E8852C;
+}
+#topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active{
+	color:#FFFFFF;
+	background-color: #B58510;
+}
+
+#content {
+	width:700px;
+	float:left;
+	padding:5px;
+	height:auto;
+}
+
+/*Main Page*/
+#mainpage {
+	width:700px;
+	float:left;
+	padding:5px 5px 5px 0px;
+	height:auto
+}
+#mainpage p {
+	line-height:22px;
+	margin:10px 0px 22px 0px;
+	text-align: justify;
+}
+h1, h2, h3, h4, h5 {
+	color:#FFC330;
+	font-weight:bold;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+#mainpage h1 {
+	font-size:24px;
+	border-bottom: 5px solid #B58510;
+}
+#mainpage h2 {
+	font-size:18px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #B52E10;
+}
+table, th, td{
+	border: 1px solid black;
+}
+
